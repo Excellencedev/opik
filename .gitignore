@@ -5,8 +5,6 @@
 .last_run/
 
 # Environment variables
-.env.local
-.env
 
 # IntelliJ
 .idea/
@@ -131,3 +129,5 @@ tests_end_to_end/visual-tests/screenshots/
 
 # `opik migrate` audit logs (runtime artifacts written to CWD by default)
 opik-migrate-*.json
+config.bat
+node_modules
